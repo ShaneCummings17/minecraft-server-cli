@@ -9,8 +9,18 @@ The CLI can download the appropriate server jar for any version of Minecraft and
 
 ### Commands
 ```
+minecraft-server initialize    # Download the required packages for the CLI
+```
+```
 minecraft-server create-server [NAME]
     flags:
         -v          The Minecraft version to use (default latest release).
-
+```
+```
+minecraft-server start-server [NAME]
+```
+```
+minecraft-server delete-server [NAME]
+    flags:
+        -y          Avoids manual confirmation when deleting a server.
 ```
